@@ -1,0 +1,23 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="10">
+            <item index="0" class="java.lang.String" itemvalue="graphene-django" />
+            <item index="1" class="java.lang.String" itemvalue="django-graphiql" />
+            <item index="2" class="java.lang.String" itemvalue="graphql-relay" />
+            <item index="3" class="java.lang.String" itemvalue="six" />
+            <item index="4" class="java.lang.String" itemvalue="aniso8601" />
+            <item index="5" class="java.lang.String" itemvalue="rx" />
+            <item index="6" class="java.lang.String" itemvalue="graphql-core" />
+            <item index="7" class="java.lang.String" itemvalue="promise" />
+            <item index="8" class="java.lang.String" itemvalue="graphene" />
+            <item index="9" class="java.lang.String" itemvalue="singledispatch" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
