@@ -39,9 +39,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'graphene_django',
     'company',
+    'corsheaders', #added for cors
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware', #added for cors
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -124,3 +126,7 @@ STATIC_URL = '/static/'
 GRAPHENE = {
  'SCHEMA': 'startupql.schema.schema'
 }
+
+CORS_ORIGIN_WHITELIST = (
+         'localhost:8080/'
+     )
